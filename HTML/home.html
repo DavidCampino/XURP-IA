@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="shortcut icon" href="../IMG/icono.png" type="image/x-icon">
+    <title>Mi Espacio</title>
+</head>
+<body>
+    
+    <div class="sidebar">
+
+        <a href="#">XURP IA</a>
+
+        <div class="side-nav">
+            <div class="item active">
+                <i class='bx bx-search-alt' ></i>
+                <a href="#">Mi espacio</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-message-square-dots'></i>
+                <a href="#">Notificaciones</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-x'></i>
+                <a href="#">IA</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-bookmark-minus'></i>
+                <a href="#">Trabajos Guardados</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-cog'></i>
+                <a href="#">Configuración</a>
+            </div>
+        </div>
+
+        <div class="side-profile">
+            <div class="info">
+                <img src="../IMG/david.jpg">
+                <a href="#">David Campiño</a>
+                <p>Programador</p>
+            </div>
+            <div class="skills">
+                <h5>Conocimientos</h5>
+                <div class="skill-tags">
+                    <div class="item">
+                        <p>Diseño UI</p>
+                    </div>
+                    <div class="item">
+                        <p>React</p>
+                    </div>
+                    <div class="item">
+                        <p>Photoshop</p>
+                    </div>
+                    <div class="item">
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+            </div>
+            <button>Ver Perfil</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="nav">
+            <button id="menuToggle"><i class='bx bx-menu'></i></button>
+            <div class="search">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Buscar por trabajos o compañias">
+            </div>
+            <div class="city">
+                <i class='bx bxs-location-plus'></i>
+                <input type="text" placeholder="Ingresa ciudad, estado, o región">
+            </div>
+            <button>Buscar</button>
+            <i class='bx bx-bell'></i>
+            <div class="user-info">
+                <img src="../IMG/david.jpg">
+                <div>
+                    <a href="#">David Campiño <i class='bx bx-chevron-down'></i></a>
+                    <p>josedavid4049@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="content">
+                <div class="header">
+                    <h4>Grupos</h4>
+                    <p>Aquí estarán tus grupos de trabajo</p>
+                </div>
+
+                <div class="job-cards">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <img class="logoEmpresas"  src="../IMG/LOGOCHIQUITO.png">
+                                <div>
+                                    <h5>Heeq <span>| Última conexion hace 2h</span></h5>
+                                    <a href="#">Entrar</a>
+                                    <p>Cali, Colombia</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Empresa</a>
+                            <a href="#">Principal</a>
+                        </div>
+                        <div class="card-desc">
+                            <p>Heeq es una empresa de tecnología que ofrece soluciones de software y hardware</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <img src="../IMG/icono.png" class="logoEmpresas">
+                                <div>
+                                    <h5>XURP IA <span>| Última conexión hace 2min</span></h5>
+                                    <a href="#">Entrar</a>
+                                    <p>Cali, Colombia</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Empresa</a>
+                            <a href="#">IA</a>
+                            <a href="#">Chat</a>
+                        </div>
+                        <div class="card-desc">
+                            <p>Xurp IA es un invento tecnológico el cuál implementa una Inteligencia Artificial que la puedes utilizar mientras programas en equipo.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <script src="../JS/home.js"></script>
+</body>
+</html>
